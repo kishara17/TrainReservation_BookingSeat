@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body{
+			background-image: url('image/back.png');
+			height: 50%;
+		 	background-position: center;
+  			background-repeat: no-repeat;
+  			background-size: cover;
+}
+
+.hd{
+			font-family: "Times New Roman", Times, serif;
+			text-align: center;
+			padding:5px;
+			margin-left: 10%;
+			margin-right: 5%;
+			color:white;
+			font-weight: 700;
+			font-size:80px;
+			
+		}
+		.flex-container {
+ 			 display: flex;
+}
+
+	.description-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+   
+}
+
+	.description-box h1 {
+    margin-top: 0;
+}
+
+	.description-box p {
+    margin-bottom: 10px;
+}
+.btn2{
+			color:white;
+			font-size:20px;
+		}
+
+form {
+  border: 3px solid #004040;
+  width:500px;
+  background-color:white;
+  margin-left:500px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #004080;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

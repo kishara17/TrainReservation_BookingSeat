@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.Book{
+		position: relative;
+  		bottom:90px;
+		text-align:center;
+		font-weight:700;
+		font-size:50px;
+		color:white;
+	}
+	
+#div4{
+	float:left;
+	font-family:Times New Roman;
+	background: rgb(2,0,36);
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(26,149,179,1) 70%, rgba(1,198,246,1) 83%, rgba(255,255,255,1) 100%);
+	background-size:cover;
+	border-radius:10px;
+	position: absolute;
+	left:30%;
+	right:10%;
+	height:440px;
+	padding:5px 10px 5px 100px;
+	border:solid;	
+	color:white;
+
+}
+.para1{
+	text-align:center;
+	position: relative;
+	top:360px;
+	color:white;
+	font-style:bold;
+}
+
+.div6{
+    float: left;
+    font-family: Times New Roman;
+    position: absolute;
+    left: 1%;
+    right: 30%;
+	top:0%;
+    height: 320px; 
+    padding: 5px 10px 5px 100px;
+	color:white;
+
+}
+.para2{
+	color:white;
+	text-align: center;
+	font-size:16px;
+}
+input{
+	width:500px;
+	height:20px;
+}
+#NoOfPassengers{
+	width:200px;
+}
+.proceed{
+	width:100px;
+	height:30px;
+	position:relative;
+	bottom:50px;
+	left:600px;
+	border-radius:6px;
+
+}
+.update{
+	width:50px;
+
+}
